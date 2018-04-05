@@ -5,6 +5,12 @@
   position: relative;
   padding: 45px 5%;
   border: 2px dotted #835a5a; }
+  .baner-holder .baner-holder__image {
+    position: absolute;
+    bottom: -3%;
+    right: 12%;
+    width: 25%;
+    height: auto; }
 
 .baner-holder__text {
   width: 60%;
@@ -25,23 +31,21 @@
     color: #835a5a;
     text-align: center; }
 
-.baner-holder__image {
-  position: absolute;
-  bottom: -3%;
-  right: 12%;
-  width: 25%;
-  height: auto; }
-
 @media screen and (max-width: 900px) {
-  .baner-holder__image {
+  .baner-holder .baner-holder__image {
     width: 35%;
     right: 5%; } }
 
 @media screen and (max-width: 770px) {
-  .baner-holder__image {
+  .baner-holder .baner-holder__image {
     width: 38%;
     right: 3%; } }
 
 @media screen and (max-width: 720px) {
   .baner-holder {
     width: 90%; } }
+
+@media screen and (max-width: 440px) {
+  .baner-holder .baner-holder__image {
+    width: 49%;
+    right: 1%; } }

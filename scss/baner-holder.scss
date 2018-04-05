@@ -7,6 +7,13 @@ $bg-color: #9cf0ef;
 	position: relative;
 	padding: 45px 5%;
 	border: 2px dotted #835a5a;
+    .baner-holder__image {
+    position: absolute;
+    bottom: -3%;
+    right: 12%;
+    width: 25%;
+    height: auto;
+}
 	}
 	.baner-holder__text {
 		width: 60%;
@@ -30,27 +37,23 @@ $bg-color: #9cf0ef;
 		 }
 }
 
-.baner-holder__image {
-	position: absolute;
-    bottom: -3%;
-    right: 12%;
-    width: 25%;
-    height: auto;
-}
+
 
 @media  screen and (max-width: 900px) {
+    .baner-holder {
     .baner-holder__image {
     width: 35%;
      right: 5%;
-   
+  } 
 }
 }
 
 @media  screen and (max-width: 770px) {
+    .baner-holder {
     .baner-holder__image {
     width: 38%;
      right: 3%;
-   
+   }
 }
 }
 @media  screen and (max-width: 720px) {
@@ -59,3 +62,11 @@ $bg-color: #9cf0ef;
 }
 }
 
+@media  screen and (max-width: 440px) {
+    .baner-holder {
+    .baner-holder__image {
+    width: 49%;
+     right: 1%;
+   }
+}
+}
