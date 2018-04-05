@@ -1,2 +1,4 @@
 .header, .footer {
   background: #835a5a; }
+  .header .phone, .footer .phone {
+    color: #fff; }
