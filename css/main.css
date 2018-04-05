@@ -1,0 +1,132 @@
+@import url("reset.css");
+@import url("form.css");
+@import url("navbar-bottom.css");
+@import url("navbar.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("card-product.css");
+@import url("sidebar.css");
+@import url("contacts-list.css");
+@import url("button.css");
+@import url("baner-holder.css");
+@import url("section.css");
+@import url("main-content.css");
+@import url("section-orange.css");
+@import url("heading.css");
+@import url("card-slick.css");
+@import url("phone.css");
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/fonts/icomoon.eot?266pse");
+  src: url("../fonts/fonts/icomoon.eot?266pse#iefix") format("embedded-opentype"), url("../fonts/fonts/icomoon.ttf?266pse") format("truetype"), url("../fonts/fonts/icomoon.woff?266pse") format("woff"), url("../fonts/fonts/icomoon.svg?266pse#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-checkmark:before {
+  content: "\e900"; }
+
+.icon-map-pin:before {
+  content: "\e901"; }
+
+.icon-pin:before {
+  content: "\e901"; }
+
+.icon-location:before {
+  content: "\e901"; }
+
+.icon-map2:before {
+  content: "\e902"; }
+
+.icon-cart:before {
+  content: "\e903"; }
+
+.icon-left:before {
+  content: "\e904"; }
+
+.icon-right:before {
+  content: "\e905"; }
+
+.icon-facebook:before {
+  content: "\e906"; }
+
+.icon-forwarded:before {
+  content: "\e907";
+  font-size: 30px;
+  line-height: 56px; }
+
+.icon-cart2:before {
+  content: "\e908"; }
+
+.icon-zoom-in:before {
+  content: "\e909"; }
+
+.icon-zoom-out:before {
+  content: "\e90a"; }
+
+.icon-cellular:before {
+  content: "\e90b"; }
+
+.icon-radio-checked:before {
+  content: "\e90c"; }
+
+.icon-radio-button:before {
+  content: "\e90c"; }
+
+.icon-user:before {
+  content: "\e90d"; }
+
+.icon-youtube:before {
+  content: "\e90e"; }
+
+.icon-fb:before {
+  content: "\e90f"; }
+
+.icon-double-down:before {
+  content: "\e910"; }
+
+.icon-youtube2:before {
+  content: "\e911"; }
+
+.bold {
+  font-weight: bold; }
+
+.orange {
+  color: #ee5614; }
+
+.brand-color {
+  color: #660d6c; }
+
+.container {
+  padding: 0 9%; }
+
+.center {
+  margin: 0 auto; }
+
+@media screen and (max-width: 1139px) {
+  .container {
+    padding: 0 6%; } }
+
+@media screen and (max-width: 1061px) {
+  .container {
+    padding: 0 3%; } }
+
+@media screen and (max-width: 620px) {
+  .container {
+    padding: 0 1%; } }

@@ -1,0 +1,51 @@
+$icon-color: #f27d0a;
+$bg-color: #cc72be;
+.button, .button-blue {
+	display: flex;
+    padding: 5px;
+    background: $icon-color;
+    max-width: 180px;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 32px;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 0px 12px;
+    border: 2px solid;
+    color: #fff;
+}
+.button-blue {
+	background: #b750b1;
+}
+.button-inverse {
+	display: block;
+	padding: 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+	background: linear-gradient(to bottom, #d93806, #d93806, #d93806, #d93806, #d93806,  #eb7753, #d93806);
+	border: 1px double #835a5a;
+
+
+	 a {
+		font-size: 17px;
+		line-height: 24px;
+		color: #fff; 
+	}
+}
+
+.button-inverse:first-child {
+	margin-bottom: 20px;
+}
+.button-inverse:hover {
+	background: #e94310;
+}
+
+
+
+@media  screen and (max-width: 720px) {
+	.button, .button-blue {
+    max-width: 140px;
+    margin: 0 auto;
+	}
+}

@@ -1,0 +1,22 @@
+.sidebar {
+  width: 30%;
+  padding-right: 20px; }
+
+@media screen and (max-width: 1030px) {
+  .sidebar {
+    width: 40%; } }
+
+@media screen and (max-width: 800px) {
+  .sidebar {
+    width: 50%;
+    padding-right: 10px; }
+  .sidebar__list {
+    margin: 0 auto 10px; } }
+
+@media screen and (max-width: 530px) {
+  .sidebar {
+    width: 72%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto 10px; } }

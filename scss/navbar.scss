@@ -1,0 +1,23 @@
+.nav {
+	box-shadow: 0px 3px 17px 0px rgba(254,168,19,1);
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0;
+	align-items: center;
+	.navbar__logo {
+		width: 20%;
+		height: auto;
+	}
+}
+
+@media  screen and (max-width: 720px) {
+	.navbar {
+	   flex-direction: column;
+	   .navbar__logo {
+		width: 40%;
+		margin-bottom: 1em;
+	  }
+	}
+}

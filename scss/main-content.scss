@@ -1,0 +1,9 @@
+.main-content {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+@media  screen and (max-width: 720px) {
+.main-content {
+    flex-direction: column;}
+}

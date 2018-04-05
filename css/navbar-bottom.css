@@ -1,0 +1,27 @@
+.navbar-bottom {
+  border-top: 1px solid #cc72be; }
+
+.navbar-bottom__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5px; }
+  .navbar-bottom__list li {
+    margin-right: 10px;
+    color: #fff;
+    padding: 5px; }
+    .navbar-bottom__list li a {
+      color: #fff;
+      text-transform: uppercase; }
+
+.navbar-bottom__list li:hover,
+.navbar-bottom__list a:hover {
+  color: #cc72be;
+  background: #fcecfa;
+  border-radius: 5px; }

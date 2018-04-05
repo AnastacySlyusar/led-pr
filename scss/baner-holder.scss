@@ -1,0 +1,61 @@
+	$icon-color: #ed720b;
+$bg-color: #9cf0ef;
+.baner-holder {
+	background: url("../images/bg47.jpg") repeat 0 0;
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 45px 5%;
+	border: 2px dotted #835a5a;
+	}
+	.baner-holder__text {
+		width: 60%;
+		height: auto;
+		 .baner-holder__text-title {
+		 	    font-size: 25px;
+                line-height: 43px;
+                color: red;
+                background: #fff;
+                text-align: center;
+                font-weight: bold;
+                text-transform: uppercase;
+                border-radius: 47%;
+		 }
+		  .baner-holder__text-description {
+		 	font-size: 18px;
+            line-height: 34px;
+            padding-left: 17px;
+            color: #835a5a;
+            text-align: center;
+		 }
+}
+
+.baner-holder__image {
+	position: absolute;
+    bottom: -3%;
+    right: 12%;
+    width: 25%;
+    height: auto;
+}
+
+@media  screen and (max-width: 900px) {
+    .baner-holder__image {
+    width: 35%;
+     right: 5%;
+   
+}
+}
+
+@media  screen and (max-width: 770px) {
+    .baner-holder__image {
+    width: 38%;
+     right: 3%;
+   
+}
+}
+@media  screen and (max-width: 720px) {
+   .baner-holder {
+	width: 90%;   
+}
+}
+

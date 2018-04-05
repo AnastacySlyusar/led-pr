@@ -1,0 +1,50 @@
+.button, .button-blue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  background: #f27d0a;
+  max-width: 180px;
+  border-radius: 5px;
+  text-align: center;
+  min-height: 32px;
+  z-index: 999;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-shadow: 1px 0px 12px;
+  box-shadow: 1px 0px 12px;
+  border: 2px solid;
+  color: #fff; }
+
+.button-blue {
+  background: #b750b1; }
+
+.button-inverse {
+  display: block;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d93806), color-stop(#d93806), color-stop(#d93806), color-stop(#d93806), color-stop(#d93806), color-stop(#eb7753), to(#d93806));
+  background: -webkit-linear-gradient(top, #d93806, #d93806, #d93806, #d93806, #d93806, #eb7753, #d93806);
+  background: -o-linear-gradient(top, #d93806, #d93806, #d93806, #d93806, #d93806, #eb7753, #d93806);
+  background: linear-gradient(to bottom, #d93806, #d93806, #d93806, #d93806, #d93806, #eb7753, #d93806);
+  border: 1px double #835a5a; }
+  .button-inverse a {
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff; }
+
+.button-inverse:first-child {
+  margin-bottom: 20px; }
+
+.button-inverse:hover {
+  background: #e94310; }
+
+@media screen and (max-width: 720px) {
+  .button, .button-blue {
+    max-width: 140px;
+    margin: 0 auto; } }

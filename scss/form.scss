@@ -1,0 +1,32 @@
+$icon-color: #ed720b;
+.popup-callback {
+	width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+.form {
+	    width: 305px;
+    height: 142px;
+    background: linear-gradient(45deg, #b750b1, #fff, #b750b1);
+    margin: 0 auto;
+    position: relative;
+      h3, .form-control {
+      	margin-bottom: 20px;
+      }
+}
+
+.close-popup {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	  .icon-radio-button {
+	  	color: $icon-color;
+	  }
+}

@@ -1,0 +1,21 @@
+.card-slick {
+  margin-bottom: 10px; }
+  .card-slick button:before {
+    content: ""; }
+
+.card-slick2 button:before {
+  content: ""; }
+
+.card-slick2 .sl-nav__item {
+  margin: 0 5px; }
+
+.sl-show__item {
+  border: 2px solid #835a5a; }
+
+.sl-nav__item {
+  padding: 3px;
+  background: #835a5a;
+  cursor: pointer; }
+
+.sl-nav__item.slick-current {
+  background: #ed720b; }

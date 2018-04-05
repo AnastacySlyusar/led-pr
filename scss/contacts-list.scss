@@ -1,0 +1,12 @@
+$icon-color: #ed720b;
+.contacts-list {
+	display: flex;
+	align-items: center;
+	li {
+		margin-right: 10px;
+		color: $icon-color;
+		a {
+			color: #fff;
+		}
+	}
+}
